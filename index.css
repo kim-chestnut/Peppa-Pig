@@ -261,7 +261,7 @@
     left:224px;
     background-color:#f2beee;
     border-radius:30% 30% 0px 0px /50% 30% 0px 0px;
-    z-index:39px;
+    z-index:39;
 }
 .leg-left{
     width:10px;
@@ -270,7 +270,7 @@
     left:343px;
     background-color:#f2beee;
     border-radius:30% 30% 0px 0px /50% 30% 0px 0px;
-    z-index:39px;
+    z-index:39;
 }
 .foot-right{
     width:65px;
@@ -279,6 +279,7 @@
     left:221px;
     background-color:#000;
     border-radius:50px 10px 10px 5px /13px 10px 10px 5px;
+    z-index:40;
 }
 .foot-left{
     width:65px;
@@ -287,6 +288,7 @@
     left:338px;
     background-color:#000;
     border-radius:50px 10px 10px 5px /13px 10px 10px 5px;
+    z-index:40;
 }
 .tail{
     width:60px;
@@ -321,4 +323,13 @@
     border-radius:50%;
     top:22px;
     left:5px;
+}
+.shadow{
+    width:290px;
+    height:60px;
+    background-color:rgba(0,0,0,.1);
+    border-radius:50%;
+    left:170px;
+    top:550px;
+    z-index:30;
 }
